@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from captcha.image import ImageCaptcha  # pip install captcha
 import numpy as np
 from PIL import Image

@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from captcha.image import ImageCaptcha  # pip install captcha
 import numpy as np
 from PIL import Image
@@ -52,7 +53,7 @@ def gen_list():
 img_list = gen_list()
 def gen_captcha_text_and_image_new():
     img = choice(img_list)
-    captcha_image = Image.open(root_dir + "/" + img + ".gif")
+    captcha_image = Image.open(root_dir + '/' + img + ".gif")
     captcha_image = np.array(captcha_image)
     return img, captcha_image
 

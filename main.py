@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from gen_check_code import gen_captcha_text_and_image_new,gen_captcha_text_and_image
 from gen_check_code import number
 from test_check_code import get_test_captcha_text_and_image
